@@ -1,0 +1,11 @@
+
+void main()
+{
+    void* dest = (void*) 119212811487050;
+    char buf[3];
+    int val;
+    __syscall(0,0,buf,3);
+    val = atoi(buf);
+    dest += (val*0x11);
+    goto *dest;
+}

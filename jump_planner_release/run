@@ -1,0 +1,2 @@
+#!/bin/sh
+./qemu-x86_64  -plugin ./libjail.so ./jump_planner

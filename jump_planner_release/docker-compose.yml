@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  jump_planner_app:
+    build: .
+    ports:
+      - 5000:5000
+    privileged: true
